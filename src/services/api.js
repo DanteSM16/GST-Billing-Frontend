@@ -3,7 +3,7 @@ import axios from 'axios';
 
 // 1. Create a base Axios instance like setting a Base URL 
 const api = axios.create({
-    baseURL: 'http://localhost:8080/api', 
+    baseURL: 'https://gst-billing-djel.onrender.com/api', 
     headers: {
         'Content-Type': 'application/json'
     }
